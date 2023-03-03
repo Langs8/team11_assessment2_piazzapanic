@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+body {
+    background-color: #88CCEE;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+
+/* -------------------- Start of Landing Page -------------------- */
+
+#landing header {
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#landing h1 {
+    height: 18%;
+    width: 100%;
+    font-size: 50px;
+    background-color: #CC6677;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing section, img {
+    width: 50%;
+    height: 82%;
+}
+
+img {
+    object-fit: none;
+}
+
+#landing section{
+    display: flex;
+    flex-direction: column;
+}
+
+.description h2 {
+    margin: 50px 25px 50px 25px;
+}
+
+.description p {
+    margin: 0px 25px;
+}
+
+#landing main {
+    text-align: center;
+    margin: 8% 0;
+}
+
+#landing main h2 {
+    margin-bottom: 2.5%;
+}
+
+#landing main ul {
+    height: 32%;
+}
+
+
+/* -------------------- Start of Deliverable page -------------------- */
+
+#deliverable {
+    margin: 3.5% 0 0 4.2%;
+}
+
+.home {
+    font-size: 20px;
+}
+
+#deliverable #content {
+    margin-top: 3.5%;
+    margin-left: 10%;
+}
+
+#deliverable section {
+    width: 82%;
+    height: 45%;
+}
+
+#deliverable h1 {
+    margin-bottom: 4%;
+}
+
+#team-7 {
+    margin-bottom: 6%;
+}
+
+.website {
+    font-size: 20px;
+    margin: 2.9% 0;
+}
+
+#deliverable main {
+    height: 62%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imp {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#whitespace {
+    height: 15%;
+}

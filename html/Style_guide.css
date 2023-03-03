@@ -1,0 +1,317 @@
+/*The following is a general style for text in the website */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+/*The following is a general guideline if style code is not given to the website */
+body {
+    background-color: #88CCEE;
+    margin: 0;
+    height: 100%;
+}
+
+.home {
+    font-size: 30px;
+    margin-top: 8%;
+}
+
+.home a {
+    text-decoration: none;
+}
+
+/*This styles the list of deliverables */
+.list_of_deliverables{
+    display: flex;
+    width: 100%;
+    background-color:#88CCEE;
+    display: inline-block;
+}
+
+/*This styles the section deliverables */
+.Deliverables{
+    display:block;
+    width:100%;
+    background-color: #CC6677;
+    text-align:  center;
+}
+
+/*This styles the section week_2_stuff, specifically its position and background colour */
+.week_2_stuff{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    position: sticky;
+    background-color: #44AA99;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*This styles the title for week 2 progress section */
+.week_2_stuff_header{
+    overflow: hidden;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*This is a general class, used to style the image box position and size of progress section images, some images do not use this as they needed to be scaled differently to appear visable on the webpage */
+.Week_image{
+    width:100%;
+    height: 100%;
+    float: right;
+    position: relative;
+    border-color: solid black;
+}
+
+/*This styles the actual image in the week progress, some images do not use this as they needed to be scaled differently to appear visable on the webpage */
+.Week_image img{
+    width: 100%;
+    height: 100%;
+}
+
+/*This is a general class used to style the position and text allignment of paragraphs describing week progress, some paragraphs do not use this as they needed to be scaled differently to appear visable on the webpage */
+.Week_paragraph{
+    width: 100%;
+    height: 100%;
+    flex-basis: 40%;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    left: 1px;
+    font-size: large;
+    font-size: 18px;
+}
+
+/* This is the style for the postition and background colour of week 1's progress report */
+.week_1_stuff{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    position: sticky;
+    background-color: #44AA99;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*This is the style for the title and title box of the week 1 progress report section */
+.week_1_stuff_header{
+    overflow: hidden;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*This is used to position the image of the week 1 progress report image */
+.Week_1_image{
+    width: 100%;
+    height: 100%;
+    float: right;
+    position: relative;
+    top: 10px;
+    border-color: solid black;
+    border-radius: 20px;
+}
+
+.Week_1_image img{
+    width: auto;
+    height: auto;
+}
+
+/* This is the style guide for the section position and colour of week 3's progress report */
+.week_3_stuff{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    position: sticky;
+    background-color: #44AA99;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*This is the section for styling the title of the week 3 progress report section */
+.week_3_stuff_header{
+    overflow: hidden;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*This is the section for styling the image for the week 3 progress report section */
+.Week_3_image{
+    width:100%;
+    float: right;
+    position: relative;
+    top: 70px;
+    border-color: solid black;
+    border-radius: 20px;
+}
+
+/*This is the section for styling the christmas break section of the progress report */
+.week_4_stuff{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    position: sticky;
+    background-color: #44AA99;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*This is the section for styling the progress report section term 2 week 1, position and colour */
+.term2_week2{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    position: sticky;
+    background-color: #44AA99;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*This is the section for the header of the progress report section for term 2 week 2 */
+.term2_week2_header{
+    overflow: hidden;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.term2_week1{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    position: sticky;
+    background-color: #44AA99;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* This is the section for the header of the progress report section for term 2 week 3 */
+.term2_week3{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    position: sticky;
+    background-color: #44AA99;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.term2_week3_header{
+    overflow: hidden;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*This is the container for section container our UMLS, it changes the position and colour */
+.UML_container{
+    display:block;
+    width:100%;
+    background-color: #054A6D;
+    text-align: center;
+}
+
+/*This changes the UML images in the UML section */
+.UML{
+    width:100%;
+    position: relative;
+    border-color: solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/*This is the style used for the titles given to each UML */
+.UML_title{
+    background-color: #88CCEE;
+    overflow: hidden;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+#toc{
+    background-color: #CC6677;
+}
+
+/*These are the style guides for the table of contents in the website, we made this late into development, hence why its so far down in the style guide (sorry ;-;) */
+.table_of_contents{
+    display:block;
+    width:100%;
+    text-align-last:  center;
+    text-align: justify;
+}
+
+
+.list_of_table_of_contents{
+    display: flex;
+    width: 100%;
+    text-align-last: center;
+    text-align: justify;
+    display: inline-block;
+}
+
+/*These are the styles guides for the section to do with giving a better view of the Gantt charts */
+.Gantt_charts{
+    display:block;
+    width:100%;
+    background-color: #054A6D;
+    text-align: center;
+}
+
+.gantt_chart_title{
+    background-color: #44AA99;
+    overflow: hidden;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Gantt_chart_img{
+    width:100%;
+    position: relative;
+    border-color: solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Gantt_chart_img img{
+    width: 100%;
+    height: 100%;
+}
+
+/*These are the classes to with the formatting of the bibliography section of the website */
+.Bibliography{
+    display:block;
+    width:100%;
+    background-color: #CC6677;
+    text-align: center;
+}
+
+.Bibliography_title{
+    background-color: #44AA99;
+    overflow: hidden;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.Bibliography_text{
+    width: 80%;
+    flex-basis: 40%;
+    overflow: hidden;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    font-size: large;
+    font-size: 20px;
+}
