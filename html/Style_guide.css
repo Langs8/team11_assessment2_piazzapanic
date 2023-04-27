@@ -206,6 +206,10 @@ body {
     margin-right: auto;
 }
 
+.team-11-progress{
+    height: 10%;
+}
+
 .term2_week3_header{
     overflow: hidden;
     flex-basis: 100%;
