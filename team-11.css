@@ -135,7 +135,7 @@ img {
     justify-content: space-between;
 }
 
-.imp, test {
+.imp, .test {
     width: 450px;
     display: flex;
     justify-content: space-between;
