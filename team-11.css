@@ -141,6 +141,10 @@ img {
     justify-content: space-between;
 }
 
+.test{
+    width: 600px;
+}
+
 #whitespace {
     height: 15%;
 }
